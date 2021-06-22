@@ -8,7 +8,6 @@ int yywrap(void) {
 }
 %}
 
-%option case-insensitive
 DIGIT    [0-9]
 ID       [A-Za-z][A-Za-z0-9]*
 EXP		 ([Ee](\+|\-)?{DIGIT}*)
